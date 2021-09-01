@@ -1,2 +1,2 @@
 # about
-This is my porfolio website. It highligths the different projects that I realized. It is a website that I developped myself 
+I wanted to learn Javascript so I decided to create this portfolio. I like learning by doing. 
