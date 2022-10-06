@@ -217,6 +217,9 @@ b.max-bold {
 	margin-bottom: 50px;
 }
 
+.margin-b-0 {
+	margin-bottom: 0px;
+}
 .margin-tb-30 {
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -351,16 +354,17 @@ header .downlad-btn:hover {
 }
 
 .intro .social-icons>li>a {
-	height: 35px;
-	line-height: 35px;
-	width: 35px;
-	border-radius: 20px;
+	height: 50px;
+	/* line-height: 30px; */
+	width: 70px;
+	border-radius: 30px;
 	overflow: hidden;
 	z-index: 1;
 	position: relative;
 	margin: 0 5px 5px;
 	background: #1e90ff;
 	color: #fff;
+	align-items: center;
 }
 
 .intro .social-icons>li>a:after {
@@ -378,6 +382,9 @@ header .downlad-btn:hover {
 	-webkit-transform: scale(0);
 	transform: scale(0);
 }
+
+.ion-social-linkedin:before {font-size:50px;}
+.ion-social-github:before {font-size:50px;}
 
 .intro .social-icons>li>a:hover:after {
 	-webkit-transform: scale(1);
